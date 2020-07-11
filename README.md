@@ -38,6 +38,8 @@ https://www.advancedwebranking.com/html/#faq
   </tr>
   ...
 <table>
+  
+<a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speiclal">Hypertext</a>
 ```
 <p>
 코드에서 엔터 두 번 하는 거 의미 없음 <br>
@@ -72,6 +74,8 @@ atom 기준, command(ctrl) + 클릭
 
 그래서 li 태그는 반드시 부모 태그를 갖고 있다
 그리고 부모 태그인 ul 태그는 반드시 자식 태그를 가지고 있다. 
+
+
 
 
 
