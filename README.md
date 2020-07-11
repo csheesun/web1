@@ -40,6 +40,13 @@ https://www.advancedwebranking.com/html/#faq
 <table>
   
 <a href="https://www.w3.org/TR/html5/" target="_blank" title="html5 speiclal">Hypertext</a>
+  
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>
+<body>
 ```
 <p>
 코드에서 엔터 두 번 하는 거 의미 없음 <br>
@@ -62,7 +69,7 @@ accesibility.(장애인) <br>
 예쁘게 하려고 문자까지 넣어서 통으로 이미지로 만들면 시각장애인에게는 없는 정보가 된다. <br>
 추천 : <strong>unsplash.com</strong> : 저작권에 구애받지 않는 무료 이미지 다운가능 
 
-## AWS 야학 5일차 - 웹의 기초 - 11
+## AWS 야학 5일차 - 웹의 기초 - 11 부터
 부모 자식 관계에 있는 태그 있다. 꼭 같이 써야 하는 거 있다. <br>
 
 한번에 여러개 수정 <br>
@@ -74,7 +81,7 @@ atom 기준, command(ctrl) + 클릭
 
 그래서 li 태그는 반드시 부모 태그를 갖고 있다
 그리고 부모 태그인 ul 태그는 반드시 자식 태그를 가지고 있다. 
-
+마지막 - 링크되는 웹 사이트 만듦 
 
 
 
