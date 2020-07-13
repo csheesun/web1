@@ -84,7 +84,7 @@ atom 기준, command(ctrl) + 클릭 <br>
 
 공 https://www.w3.org/TR/html51/ <br>
 
-# AWS 야학 6일차 - S3를 서버로 활용하기
+# AWS 야학 6일차 - S3를 서버로 활용하기 (마지막 2개 강의를 다시 보기) 
 https://www.youtube.com/playlist?list=PLORxAVAC5fUWwD0ueuPNmFuu2OaIohK8u
 
 s3 를  웹서버로 활용하기 
