@@ -23,8 +23,6 @@ https://yah.ac/aws
 
 물론 EC2 안에 MySQL, SQL Server, Oracle 설치해도 된다. 
 
-
-
 host, hosting 
 
 사용량이 매우 적거나 매우 많을 떄 클라우드 유용 
@@ -37,11 +35,25 @@ host, hosting
 
 프리티어 750 시간: 여러 컴퓨터 띄워도 750 시간만 안넘으면 상관 없다는 거임 
 
+instance 원격 조종
+
+ec2 가 windows 일 때 
+
+mac : microsoft remote desktop 10 설치 
+linux : remmina 이용 
+windows : 따로 설치 불필요 
+
+Ubuntu 에서 Remmina 관련 에러 날 때 
+https://qastack.kr/unix/440803/remmina-cant-remote-into-windows-server
+
+
+
+
 
 
 # AWS 야학 2일차 - 기본 
 
-AWS1 – 8. 원격제어 (따라하기) 
+AWS1 – 8. 원격제어 
 
 키페어 잃어버렸을 때
 
@@ -67,7 +79,7 @@ AWS1 – 9. 서비스 끄기 EC2
 10. budget 정해 놓을 수 있다.
 
 
-11. OTP(one time password) <stong> 다시 보기 </stong>
+11. OTP(one time password) <stong> TODO: 다시 보기 </stong>
 
 IAM -> MFA 
 로그인 – MFA(아이디+비번+OTP) 코드 
@@ -77,78 +89,30 @@ TODO : <기기가 없어서 일단 패스>
 
 ​
 
-13. 수업을 마치며 <stong> 다시 보기 </stong>
+13. 수업을 마치며 <stong> TODO: 다시 보기 </stong>
 
 - S3 시범(따라하기 완료) - 파일을 'make public' 으로 만들기 
 
-- CLI 로 S3 에 파일업로드 시범 
+- CLI 로 S3 에 파일업로드 시범 (보기만 함) 
 <strong> aws s3 cp [filename] s3://[bucket name] </strong>
 <strong> aws s3 cp hello-cli.txt s3://coding-everybody </strong>
 
-- 프로그래밍(코드)으로 aws 제어 시범(이게 sdk 임?)
-
+- 프로그래밍(코드)으로 aws 제어 시범(보기만 함)
+node main.js 
 ​
 
-3일차 
 
-3일차 
+# AWS 야학 3일차 - S3로 하는 파일 관리 1 (다시 안봐도 됨) 
 
-s3
+s3 : 파일서버로 사용 가능 
 
 내 파일이 하나의 리전의 3개 이상의 az 에 복제됨 
+폴더 이름 못바꿈 (새폴더-옮기기-원래폴더 삭제)
+make public or permission에서 everyone - read object 선택
 
-파일서버로 사용 가능 
 
-​
-
-폴더 이름 못바꿈 
-
-​
-
---------
-
-오픈스택을 쓰면 맞춤형 클라우드 구축가능
-
-오픈스택을 비즈니스/연구용으로 이용시 꺼리게 되는 점이 있다면 바로 난이도(진입장벽)가 높다는 것 
-
-​
-
-Usage 별로 best practice 를 template 으로 제작하여 클라이언트의 시간과 비용 절감에 도움 주기 위함임 
-
-​
-
-목표 
-
-서버 인프라 구성 리눅스용 배포판용 
-
-기업용/연구기관용 서버환경 구축 
-
-​
-
-비용 예측
-
-하드웨어 대여 서비스 
-
-하드웨어 설계 자동화 
-
-공정/품질 개선
-
-​
-
-- 클라우드 배포환경을 위한 클라우드 서비스 조합 추천
-
-- 클라우드 사용전 비용 예측 
-
-- open stack 기반 cloud 구축 template 탬플릿 
-
-첫 번째 template : 기업/연구소를 위한 데이터 관리에 특화된 클라우드 
-
-​
-
-​
-
-개발언어 : 
-
+# AWS 야학 4일차 - S3로 하는 파일 관리 
+저장공간 요금과 사용요금이 다름, 에 주의 
 
 
 # AWS 야학 5일차 - 웹의 기초 (다시 안봐도 됨) 
