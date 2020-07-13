@@ -7,27 +7,13 @@
 
 - 테스트 및 프로토 타입 만든 거 공유 
 
-aws Korea youtube 채널 
+- aws Korea youtube 채널 
 
 ​
 
 https://yah.ac/aws
 
- 
-야학
-로그인 참가하기
-
-yah.ac
-
-https://pages.awscloud.com/cloud-in-life-coding-everybody-2020.html
-
-
-Amazon Web Services, Inc.
-생활코딩과 함께하는 AWS 탐구생활 777
-
-pages.awscloud.com
-
-1일차 
+# AWS 야학 1일차 - 기본 (다시 안봐도 됨) 
 
  aws educate 
 
@@ -37,7 +23,7 @@ pages.awscloud.com
 
 물론 EC2 안에 MySQL, SQL Server, Oracle 설치해도 된다. 
 
-​
+
 
 host, hosting 
 
@@ -51,13 +37,9 @@ host, hosting
 
 프리티어 750 시간: 여러 컴퓨터 띄워도 750 시간만 안넘으면 상관 없다는 거임 
 
-​
 
-https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004684016
 
-​
-
-2일차 
+# AWS 야학 2일차 - 기본 
 
 AWS1 – 8. 원격제어 (따라하기) 
 
@@ -65,45 +47,45 @@ AWS1 – 8. 원격제어 (따라하기)
 
 똑같은 키페어와 같은 키페어는 발급되지 않는다. 
 
-인스턴스를 복제한 뒤에 그 인스턴스에 새로운 키페어를 발급해줘야 함 
+<stong> 인스턴스를 복제한 뒤에 그 인스턴스에 새로운 키페어를 발급해줘야 함 </stong>
 
 ​
 
 AWS1 – 9. 서비스 끄기 EC2
 
-질문 : 750 시간 넘어도 1년 동안은 무료라는 건지? 750시간 넘으면 1년 무관하게 바로 과금인지?
+질문 : 750 시간 넘어도 1년 동안은 무료라는 건지? 750시간 넘으면 1년 무관하게 바로 과금인지? 
 
-​
-
+<stong> 
 주의 : 
-
 인스턴스 중지 : 데이터는 유지함. 이걸 하기 위해 아주 약간 과금
-
-인스턴스 종료 : 추가 과금 없음 
-
-​
+인스턴스 종료 : 데이터 날아감. 추가 과금 없음. 
+ 
+ 여러분이 컴퓨터를 끄면 ip 가 해소되고 요 다시 키면 다른 ip 가 부여 돼요 그렇기 때문에 여러분이 예전에 세팅해 놓은 방법 그대로 접속할 수 없고
+ 접속하는 방법을 다시 재 설정을 해주셔야 됩니다. '연결' 을 다시 해야 함 
+</stong>
 
 10. budget 정해 놓을 수 있다.
 
-​
 
-11. OTP(one time password) 
+11. OTP(one time password) <stong> 다시 보기 </stong>
 
-IAM
-
+IAM -> MFA 
 로그인 – MFA(아이디+비번+OTP) 코드 
+'Activate MFA on your root account' 따라하기 -> 활성화 됐는지 확인 -> 로그인 할 때 MFA 뜨는 지 확인 
+
+TODO : <기기가 없어서 일단 패스> 
 
 ​
 
-어떤 기술이 있는지 대강 읽어보기 
+13. 수업을 마치며 <stong> 다시 보기 </stong>
 
-​
+- S3 시범(따라하기 완료) - 파일을 'make public' 으로 만들기 
 
-13. 수업을 마치며
+- CLI 로 S3 에 파일업로드 시범 
+<strong> aws s3 cp [filename] s3://[bucket name] </strong>
+<strong> aws s3 cp hello-cli.txt s3://coding-everybody </strong>
 
-S3 시범 / CLI 로 S3 에 파일업로드 시범 (S3를 커맨드 창에 세팅 하는 걸 어떻게 했음??) / 
-
-프로그래밍(코드)으로 aws 제어 시범(이게 sdk 임?)
+- 프로그래밍(코드)으로 aws 제어 시범(이게 sdk 임?)
 
 ​
 
