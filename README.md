@@ -1,6 +1,7 @@
 <p>This is what I created while learning 'WEB1 - HTML & Internet' lecture of www.opentutorials.org</p>
 <p>www.opentutorials.org의 'WEB1 - HTML & Internet' 강의를 학습하면서 만든 내용입니다.</p>
 
+# AWS 야학 5일차 - 웹의 기초 (다시 안봐도 됨) 
 Textedit - 맥 <br>
 gedit - 리눅스 <br>
 
@@ -11,9 +12,7 @@ control + o <br>
 저장 <br>
 command + s <br>
 Control + s <br>
-
 https://www.youtube.com/watch?v=aUtnyev_1vg&list=PLORxAVAC5fUWLRAQ88k6iFvFb2u4HNDGJ&index=12
-# AWS 야학 5일차 - 웹의 기초 - 11강 까지 
 
 ## 웹 페이지들이 몇 개의 html 태그로 이뤄져 있는지, popular tag rankings
 https://www.advancedwebranking.com/html/#faq
@@ -69,7 +68,7 @@ accesibility.(장애인) <br>
 예쁘게 하려고 문자까지 넣어서 통으로 이미지로 만들면 시각장애인에게는 없는 정보가 된다. <br>
 추천 : <strong>unsplash.com</strong> : 저작권에 구애받지 않는 무료 이미지 다운가능 
 
-## AWS 야학 5일차 - 웹의 기초 - 11 부터
+## 11강 
 부모 자식 관계에 있는 태그 있다. 꼭 같이 써야 하는 거 있다. <br>
 
 한번에 여러개 수정 <br>
@@ -85,5 +84,28 @@ atom 기준, command(ctrl) + 클릭 <br>
 
 공 https://www.w3.org/TR/html51/ <br>
 
+# AWS 야학 6일차 - S3를 서버로 활용하기
+https://www.youtube.com/playlist?list=PLORxAVAC5fUWwD0ueuPNmFuu2OaIohK8u
 
+s3 를  웹서버로 활용하기 
+
+cloudfront = 
+cache server (웹 서버 부담 경감) + 
+cdn (세계화, 컨텐츠 신속 배달) 
+
+http://web1-html-internet-heesun.s3-website.ap-northeast-2.amazonaws.com/
+
+dsuqwuqbq9rch.cloudfront.net
+
+(수업에는 ec2 이용, 나는 s3 로 cloudfront 로 만듦) 
+
+# AWS 야학 7일차 - cloudfront를 이용해서 전세계에 배포하기 - 7일차 
+https://www.youtube.com/playlist?list=PLORxAVAC5fUU_gsWiwA9KprDxIxR_M7eg
+
+6일차 문제 : origin은 바뀌었는데 distribution 에는 바로 반영 안되는 문제 
+지금 cache control 로 해결 
+
+# 앞으로 해볼 만한 거 
+cache 강의 수강
+ec2 기반으로 Cloudfront 만들어 보기 
 
