@@ -1,6 +1,174 @@
 <p>This is what I created while learning 'WEB1 - HTML & Internet' lecture of www.opentutorials.org</p>
 <p>www.opentutorials.org의 'WEB1 - HTML & Internet' 강의를 학습하면서 만든 내용입니다.</p>
 
+- aws community heroes - 제도 - 글로벌 전문가로 성장 가능 
+
+- 페북/슬랙을 통해 초보자 도와 주기 slack.awskr.org
+
+- 테스트 및 프로토 타입 만든 거 공유 
+
+aws Korea youtube 채널 
+
+​
+
+https://yah.ac/aws
+
+ 
+야학
+로그인 참가하기
+
+yah.ac
+
+https://pages.awscloud.com/cloud-in-life-coding-everybody-2020.html
+
+
+Amazon Web Services, Inc.
+생활코딩과 함께하는 AWS 탐구생활 777
+
+pages.awscloud.com
+
+1일차 
+
+ aws educate 
+
+남의컴퓨터 빌려서 원격 제어를 통해서 사용, 컴퓨터 입대업 ex) EC2
+
+확장 : 서버 컴퓨터에 동작하는 소프트웨어 설치, 운영, 백업(위험한 일임), 보안 까지 대신해 줌 ex) RDS : MySQL, SQL Server, Oracle 이걸 서비스 형태로 제공해줌. 직접 설치 안함 
+
+물론 EC2 안에 MySQL, SQL Server, Oracle 설치해도 된다. 
+
+​
+
+host, hosting 
+
+사용량이 매우 적거나 매우 많을 떄 클라우드 유용 
+
+​
+
+맥에서 윈도우 쓰고 싶을 때 : Cloud Computing 으로 가능 
+
+목표설정 - 목표설정에 맞는 서비스 찾기 - 요금 따져보기 
+
+프리티어 750 시간: 여러 컴퓨터 띄워도 750 시간만 안넘으면 상관 없다는 거임 
+
+​
+
+https://news.naver.com/main/read.nhn?mode=LSD&mid=shm&sid1=105&oid=018&aid=0004684016
+
+​
+
+2일차 
+
+AWS1 – 8. 원격제어 (따라하기) 
+
+키페어 잃어버렸을 때
+
+똑같은 키페어와 같은 키페어는 발급되지 않는다. 
+
+인스턴스를 복제한 뒤에 그 인스턴스에 새로운 키페어를 발급해줘야 함 
+
+​
+
+AWS1 – 9. 서비스 끄기 EC2
+
+질문 : 750 시간 넘어도 1년 동안은 무료라는 건지? 750시간 넘으면 1년 무관하게 바로 과금인지?
+
+​
+
+주의 : 
+
+인스턴스 중지 : 데이터는 유지함. 이걸 하기 위해 아주 약간 과금
+
+인스턴스 종료 : 추가 과금 없음 
+
+​
+
+10. budget 정해 놓을 수 있다.
+
+​
+
+11. OTP(one time password) 
+
+IAM
+
+로그인 – MFA(아이디+비번+OTP) 코드 
+
+​
+
+어떤 기술이 있는지 대강 읽어보기 
+
+​
+
+13. 수업을 마치며
+
+S3 시범 / CLI 로 S3 에 파일업로드 시범 (S3를 커맨드 창에 세팅 하는 걸 어떻게 했음??) / 
+
+프로그래밍(코드)으로 aws 제어 시범(이게 sdk 임?)
+
+​
+
+3일차 
+
+3일차 
+
+s3
+
+내 파일이 하나의 리전의 3개 이상의 az 에 복제됨 
+
+파일서버로 사용 가능 
+
+​
+
+폴더 이름 못바꿈 
+
+​
+
+--------
+
+오픈스택을 쓰면 맞춤형 클라우드 구축가능
+
+오픈스택을 비즈니스/연구용으로 이용시 꺼리게 되는 점이 있다면 바로 난이도(진입장벽)가 높다는 것 
+
+​
+
+Usage 별로 best practice 를 template 으로 제작하여 클라이언트의 시간과 비용 절감에 도움 주기 위함임 
+
+​
+
+목표 
+
+서버 인프라 구성 리눅스용 배포판용 
+
+기업용/연구기관용 서버환경 구축 
+
+​
+
+비용 예측
+
+하드웨어 대여 서비스 
+
+하드웨어 설계 자동화 
+
+공정/품질 개선
+
+​
+
+- 클라우드 배포환경을 위한 클라우드 서비스 조합 추천
+
+- 클라우드 사용전 비용 예측 
+
+- open stack 기반 cloud 구축 template 탬플릿 
+
+첫 번째 template : 기업/연구소를 위한 데이터 관리에 특화된 클라우드 
+
+​
+
+​
+
+개발언어 : 
+
+
+
 # AWS 야학 5일차 - 웹의 기초 (다시 안봐도 됨) 
 Textedit - 맥 <br>
 gedit - 리눅스 <br>
