@@ -78,28 +78,23 @@ AWS1 – 9. 서비스 끄기 EC2
 
 10. budget 정해 놓을 수 있다.
 
-
-11. OTP(one time password) <stong> TODO: 다시 보기 </stong>
-
+11. OTP(one time password) <stong> TODO: 따라해봐야 함 </stong>
 IAM -> MFA 
 로그인 – MFA(아이디+비번+OTP) 코드 
 'Activate MFA on your root account' 따라하기 -> 활성화 됐는지 확인 -> 로그인 할 때 MFA 뜨는 지 확인 
-
 TODO : <기기가 없어서 일단 패스> 
 
-​
 
 13. 수업을 마치며 <stong> TODO: 다시 보기 </stong>
 
 - S3 시범(따라하기 완료) - 파일을 'make public' 으로 만들기 
 
-- CLI 로 S3 에 파일업로드 시범 (보기만 함) 
+- CLI 로 S3 에 파일업로드 시범 <stong> TODO: 따라해 봐야함 </stong>
 <strong> aws s3 cp [filename] s3://[bucket name] </strong>
 <strong> aws s3 cp hello-cli.txt s3://coding-everybody </strong>
 
-- 프로그래밍(코드)으로 aws 제어 시범(보기만 함)
+- 프로그래밍(코드)으로 aws 제어 시범 <stong> TODO: 따라해 봐야함 </stong>
 node main.js 
-​
 
 
 # AWS 야학 3일차 - S3로 하는 파일 관리 1 (다시 안봐도 됨) 
@@ -112,7 +107,10 @@ make public or permission에서 everyone - read object 선택
 
 
 # AWS 야학 4일차 - S3로 하는 파일 관리 
-저장공간 요금과 사용요금이 다름, 에 주의 
+스토리지 요금과 사용요금, 데이터 전송 요금이 다름 
+s3 는 버킷을 리전별로 정하게 되어 있음 => Cloudfront => 전 세계를 대상으로 빠르게 데이터 서비스
+s3 - 버전 관리 기능 (이력 남겨야 할 때 참고)
+s3 - 라이프 사이클 기능(시간이 지나면 다른 스토리지 클래스로 옮겨가게)
 
 
 # AWS 야학 5일차 - 웹의 기초 (다시 안봐도 됨) 
